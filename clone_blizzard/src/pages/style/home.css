@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background: #1d1d1d;
+}
+
+ul {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+.home--header {
+	position: absolute;
+	display: block;
+	top: 16px;
+	left: 16px;
+	bottom: 16px;
+	right: 16px;
+	height: 72px;
+	padding-left: 12px;
+	backdrop-filter: 20px;
+	background: rgba(40, 45, 67, 0.8);
+	border-radius: 8px;
+}
+
+.home--header--dropbar {
+	position: relative;
+	display: flex;
+	align-items: center;
+	overflow: hidden;
+	height: 72px;
+}
+
+.home--header--logo {
+	max-width: 80px;
+	margin-left: 32px;
+}
+
+.home--header--dropbar > li {
+	width: auto;
+	height: 27px;
+	margin-left: 32px;
+	padding: 0;
+	text-align: center;
+	background-color: #5778ff;
+}
+
+.home--header--dropbar > li:hover {
+	background-color: #94a9ff;
+	transition-duration: 0.2s;
+}
+
+.home--header--dropbox {
+	position: relative;
+	overflow: hidden;
+	height: 0;
+}
+
+.home--header--dropbar > li:hover .home--header--dropbox {
+	height: 250px;
+	transition-duration: 0.2s;
+}
+
+.home--header--dropbox > li {
+	line-height: 50px;
+	background-color: aliceblue;
+}
+
+.home--header--game {
+	font-size: 20px;
+	font-weight: 550;
+	font-family: "Poppins", sans-serif;
+	color: white;
+}
+
+.home--header--arrow {
+	max-width: 17px;
+}
+
+.dow {
+	width: 100%;
+	height: 500px;
+}
+
+/*
+    푸터 CSS
+*/
+
+.home--footer {
+	/* position: fixed; */
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: #171717;
+	padding: 20px;
+	text-align: center;
+}
+
+.home--footer--logo {
+	width: 12%;
+}
+
+.home--footer--info {
+	display: flex;
+	flex-direction: row;
+	gap: 6px;
+	justify-content: center;
+}
+
+.home--footer--line {
+	color: #ffffffb2;
+}
+
+.home--footer--trademark--info {
+	color: #5f5f5f;
+	font-size: 12px;
+}
+
+.home--footer--trademark--link {
+	color: #afafaf;
+	font-size: 12px;
+}
+
+.home--footer--dInfo {
+	font-size: 12px;
+	color: #ffffffb2;
+}
+
+.home--footer--line--applink {
+	text-decoration: underline;
+}
+
+.home--footer--line--applink:link {
+	color: #009dff;
+}
+
+.home--footer--line--applink:visited {
+	color: #009dff;
+}
+
+.home--footer--line--applink:hover {
+	color: #68c4fd;
+}
+
+.home--footer--bold {
+	font-weight: bold;
+}
+
+span {
+	color: #5f5f5f;
+}
+
+a:link {
+	color: #ffffffb2;
+}
+
+a:visited {
+	color: #ffffffb2;
+}
+
+a:hover {
+	color: white;
+}
