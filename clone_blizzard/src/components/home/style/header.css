@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  background: #1d1d1d;
+}
+
+ul{
+  list-style: none;
+}
+
+a{
+  text-decoration:none;
+}
+
+.home--header{
+  position: absolute;
+  display: block;
+  top: 16px;
+  left: 16px;
+  bottom: 16px;
+  right: 16px;
+  height: 72px;
+  padding-left: 12px;
+  backdrop-filter: 20px;
+  background: rgba(40,45,67,.8);
+  border-radius: 8px;
+}
+
+.home--header--dropbar{
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 72px;
+}
+
+.home--header--logo{
+  max-width: 80px;
+  margin-left: 14px;
+}
+
+.home--header--dropbar > li{
+  height: 27px;
+  margin-left: 23px;
+  padding: 0;
+  text-align: center;
+}
+
+.home--header--bluebox4{
+  width:105px;
+}
+
+.home--header--bluebox5{
+  width:112px;
+}
+
+.home--header--bluebox6{
+  width:130px;
+}
+
+.home--header--dropbar > li:hover{
+  background-color: #94a9ff;
+  transition-duration: 0.2s;
+}
+
+.home--header--dropbox{
+  position: relative;
+  overflow: hidden;
+  height: 0;
+}
+
+.home--header--dropbar > li:hover .home--header--dropbox{
+  height: 250px;
+  transition-duration: 0.2s;
+}
+
+.home--header--dropbox > li{
+  line-height: 50px;
+  background-color: aliceblue;
+}
+
+.home--header--drop1{
+
+}
+
+.home--header--drop2{
+  
+}
+ 
+.home--header--game{
+  font-size: 18px;
+  font-weight: 550;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+}
+
+.home--header--arrow{
+  max-width: 17px;
+}
