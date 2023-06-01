@@ -5,13 +5,13 @@ import Download from "../components/home/HomeDownload";
 import Footer from "../components/home/HomeFooter";
 
 export default function Home() {
-      return (
-            <>
-                  <Header />
-                  <Advertieses />
-                  <Games />
-                  <Download />
-                  <Footer />
-            </>
-      )
+	return (
+		<>
+			<Header />
+			<Advertieses />
+			<Games />
+			<Download />
+			<Footer />
+		</>
+	);
 }

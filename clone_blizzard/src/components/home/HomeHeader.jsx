@@ -1,3 +1,5 @@
+import "./style/header.css"
+
 export default function Header() {
     return (
         <nav className="home--header">

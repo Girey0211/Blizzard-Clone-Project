@@ -34,7 +34,6 @@ a{
   position: relative;
   display: flex;
   align-items: center;
-  overflow: hidden;
   height: 72px;
 }
 
@@ -87,7 +86,7 @@ a{
 
 }
 
-.home--header--drop1{
+.home--header--drop2{
   
 }
  

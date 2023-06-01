@@ -1,5 +1,8 @@
 export default function Download() {
     return (
-        <>im Download</>
+        <div className="dow">
+            <h1> im dowload</h1>
+
+        </div>
     )
 }
