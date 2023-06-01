@@ -40,16 +40,26 @@ a{
 
 .home--header--logo{
   max-width: 80px;
-  margin-left: 32px;
+  margin-left: 14px;
 }
 
 .home--header--dropbar > li{
-  width: auto;
   height: 27px;
-  margin-left: 32px;
+  margin-left: 23px;
   padding: 0;
   text-align: center;
-  background-color: #5778ff;
+}
+
+.home--header--bluebox4{
+  width:105px;
+}
+
+.home--header--bluebox5{
+  width:112px;
+}
+
+.home--header--bluebox6{
+  width:130px;
 }
 
 .home--header--dropbar > li:hover{
@@ -73,8 +83,16 @@ a{
   background-color: aliceblue;
 }
 
+.home--header--drop1{
+
+}
+
+.home--header--drop1{
+  
+}
+ 
 .home--header--game{
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 550;
   font-family: 'Poppins', sans-serif;
   color: white;

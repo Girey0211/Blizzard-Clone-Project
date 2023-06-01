@@ -3,7 +3,7 @@ export default function Header() {
         <nav className="home--header">
             <ul className="home--header--dropbar">
                 <img className="home--header--logo" src="./src/assets/icon.png" />
-                <li>
+                <li className="home--header--bluebox5">
                     <a href="#" className="home--header--game">워크래프트</a>
                     <img className="home--header--arrow" src="./src/assets/Arrow.png" />
                     <ul className="home--header--dropbox">
@@ -14,7 +14,7 @@ export default function Header() {
                         <li className="home--header--drop2">워크래프트 아크라이트 럼블</li>
                     </ul>
                 </li>
-                <li>
+                <li className="home--header--bluebox4">
                     <a href="#" className="home--header--game">디아블로</a>
                     <img className="home--header--arrow" src="./src/assets/Arrow.png" />
                     <ul className="home--header--dropbox">
@@ -25,7 +25,7 @@ export default function Header() {
                         <li className="home--header--drop2">워크래프트 아크라이트 럼블</li>
                     </ul>
                 </li>
-                <li>
+                <li className="home--header--bluebox4">
                     <a href="#" className="home--header--game">오버워치</a>
                     <img className="home--header--arrow" src="./src/assets/Arrow.png" />
                     <ul className="home--header--dropbox">
@@ -36,7 +36,7 @@ export default function Header() {
                         <li className="home--header--drop2">워크래프트 아크라이트 럼블</li>
                     </ul>
                 </li>
-                <li>
+                <li className="home--header--bluebox6">
                     <a href="#" className="home--header--game">스타크래프트</a>
                     <img className="home--header--arrow" src="./src/assets/Arrow.png" />
                     <ul className="home--header--dropbox">
